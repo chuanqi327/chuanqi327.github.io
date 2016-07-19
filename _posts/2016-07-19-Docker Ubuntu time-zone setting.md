@@ -1,13 +1,7 @@
 ---
 layout: post
 title: Docker Ubuntu时区设置
-date:   2016-07-20 00:15
-categories: GitHub
-excerpt: Docker Ubuntu中同步北京时间
 ---
-
-* content
-{:toc}
 
 #方式一、通过Dockerfile设置(推荐)
 [http://serverfault.com/questions/683605/docker-container-time-timezone-will-not-reflect-changes]()
