@@ -1,5 +1,9 @@
-<header class="page-header">
-     <h1 class="project-name"> <a class="header-link" href="{{ site.baseurl }}/"> {{ site.title }}</a></h1>
-     <!--<h3 style="font-weight: lighter;">a blog for <a class="header-link" href="http://canijustgo.com/" target="_blank">canijustgo.com</a></h3>-->
-     <h3>{% if site.twitter_username %}<a class="header-link" href="http://twitter.com/{{ site.twitter_username }}" target="_blank">follow @{{ site.twitter_username }}</a></h3>{% endif %}
-</header>
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="{{ "js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
+</head>
